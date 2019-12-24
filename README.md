@@ -1,6 +1,6 @@
 # Ödev3(Son Teslim Tarihi:02.01.2020)
 Bu ödevde belirli bir cevap anahtarına göre bir sınıfın test sınavının cevaplarını otomatik olarak değerlendiren bir program yazmanız istenmektedir. Kodlamayı sadece C++ veya JavaScript dillerinden biriyle yapmanız beklenmektedir. Programınız girdi ve çıktı işlemlerini metin dosyaları üzerinden gerçekleştirecektir. 
-Programınız alacağı girdi dosyasının ilk satırında sınavdaki toplam soru sayısı olacaktır. İkinci satırında ise sınavın cevap anahtarı bulunacaktır. Buradan sonraki satırlar ise her bir öğrencinin cevaplarını temsil edecektir. Satırın başındaki ilk değer, cevabı okunan öğrencinin numarası olacaktır. Sonrasında ise satır sonuna kadar öğrencinin cevapları olacaktır. Öğrenci boş cevap da vermiş olabilir. Örnek bir girdiği aşağıda görebilirsiniz:
+Programınız alacağı girdi dosyasının ilk satırında sınavdaki toplam soru sayısı olacaktır. İkinci satırında ise sınavın cevap anahtarı bulunacaktır. Buradan sonraki satırlar ise her bir öğrencinin cevaplarını temsil edecektir. Satırın başındaki ilk değer, cevabı okunan öğrencinin numarası olacaktır. Sonrasında ise satır sonuna kadar öğrencinin cevapları olacaktır. Öğrenci boş cevap da vermiş olabilir. Örnek bir girdiyi aşağıda görebilirsiniz:
 
 10
 B,A,D,D,C,B,D,A,C,C
@@ -21,7 +21,8 @@ olacak şekilde tüm öğrenciler puanlanacaktır. Herhangi bir sınıfın maksi
 -	Ortalama
 -	Medyan
 -	Açıklık (range)
-bilgilerinden oluşan bir çıktı dosyası (output.txt) hazırlanacaktır. 
+bilgilerinden oluşan bir çıktı dosyası (output.txt) hazırlanacaktır.
+
 Yukarıda örnek girdi dosyası olarak verilen, örneğe ait örnek çıktı dosyası aşağıdaki gibi olmalıdır:
 N00000023,32
 N00000002,31
